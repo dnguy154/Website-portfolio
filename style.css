@@ -1,0 +1,145 @@
+body{
+    text-align: center;
+    
+}
+
+
+h1{
+    font-size: 2rem;
+    font-family: 'Brush Script MT', cursive;
+}
+
+h2{
+    color: #48CFCB;
+}
+
+.middle-container h2{
+    color: #48CFCB;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+h3{
+    color: gray;
+}
+
+.item{
+    display: flex;
+    justify-content: right;
+    color: gray;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 10rem;
+}
+
+.item2{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+.item2 h1{
+    font-size: 5rem;
+}
+
+.item3{
+    display:flex;
+    justify-content: left;
+    color: gray;
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+.break{
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    color: gray;
+}
+
+
+.middle-container{
+    display: block;
+}
+
+img{
+    margin-top: 5rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.intro{
+    width: 20%;
+    margin: auto;
+}
+
+hr{
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: 80px auto 80px;
+
+}
+
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skills-container p{
+    width: 25rem;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    color: #48CFCB;
+}
+
+.para{
+    color: #48CFCB;
+}
+
+.lifting-p{
+
+    width: 25rem;
+}
+
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.btn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 10rem;
+}
+
+.footer{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
